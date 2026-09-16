@@ -17,3 +17,4 @@ langchain_google_genai
 langchainhub
 langchain_classic 
 langchain-pinecone
+youtube_search
