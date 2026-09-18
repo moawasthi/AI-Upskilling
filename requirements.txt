@@ -18,3 +18,4 @@ langchainhub
 langchain_classic 
 langchain-pinecone
 youtube_search
+langgraph
