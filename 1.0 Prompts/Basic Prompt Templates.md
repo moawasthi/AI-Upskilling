@@ -1,3 +1,23 @@
+# RCTFC Prompt Framework
+
+**R – Role:** Define the persona the AI should adopt.
+**C – Context:** Give background about the problem or situation.
+**T – Tasks:** List, step by step, what the AI should do.
+**F – Format:** Specify the output structure (table, bullets, word count).
+**C – Constraints:** Set limits: scope, tone, length, things to avoid.
+
+## Example
+
+**Role:** You are a senior Azure data architect.
+**Context:** I'm designing a lakehouse for a healthcare client with GxP compliance; data arrives from 20 source systems.
+**Tasks:**
+1. Propose a layered architecture.
+2. Map each layer to Azure services.
+3. Flag compliance risks.
+
+**Format:** A table (Layer | Service | Purpose), then 3 bullet-point risks.
+**Constraints:** Under 250 words, no vendor outside Azure/Databricks, plain language for non-technical stakeholders.
+
 Prompt 1
 You are a senior marketing strategist. I'm launching a [PRODUCT] for [TARGET AUDIENCE] in [MARKET]. Our brand tone is [TONE]. Create a campaign brief including: hook angle, 3 content pillars, 5 headline variations, and 2 CTAs. Format as a document I can share with my team.
 
