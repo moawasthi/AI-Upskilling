@@ -18,6 +18,31 @@
 **Format:** A table (Layer | Service | Purpose), then 3 bullet-point risks.
 **Constraints:** Under 250 words, no vendor outside Azure/Databricks, plain language for non-technical stakeholders.
 
+Meeting minutes prompts
+Role: Act as an executive assistant skilled at extracting decisions and actions from unstructured meeting notes.
+
+Context: Below are rough notes from a [MEETING TYPE — e.g. leadership sync, cross-functional review, client call] on [DATE] with attendees: [LIST NAMES AND ROLES].
+
+Task: Extract all decisions made, actions assigned, and open questions that still need resolution.
+
+Format: Three sections — Decisions Made (bulleted) + Action Items (table: Action | Owner | Due Date | Priority) + Open Questions (numbered list). Flag anything ambiguous with [UNCLEAR].
+
+Constraints: Extract only what is explicitly stated. Do not infer or add context. Language should be direct and scannable — not narrative.
+
+[PASTE MEETING NOTES BELOW]
+
+
+Role: Act as a communications specialist writing professional leadership messages.
+
+Context: [SITUATION/EVENT] occurred on [DATE]. The stakeholder group is [AUDIENCE — who they are and how they'll likely react]. They have [HIGH/MEDIUM/LOW] awareness of the background.
+
+Task: Write a professional communication from [SENDER ROLE] to this stakeholder group addressing this situation.
+
+Format: Subject line + Opening (acknowledge situation, 1 sentence) + Context (what happened and why, 2 sentences) + What's being done (2 sentences) + Next steps (2 sentences) + Close. Under 200 words.
+
+Constraints: Confident but not dismissive. No corporate clichés. Direct and human tone. Do not minimise the issue — address it head-on.
+
+
 Prompt 1
 You are a senior marketing strategist. I'm launching a [PRODUCT] for [TARGET AUDIENCE] in [MARKET]. Our brand tone is [TONE]. Create a campaign brief including: hook angle, 3 content pillars, 5 headline variations, and 2 CTAs. Format as a document I can share with my team.
 
